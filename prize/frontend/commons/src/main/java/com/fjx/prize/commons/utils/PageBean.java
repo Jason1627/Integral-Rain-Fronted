@@ -6,7 +6,6 @@ package com.fjx.prize.commons.utils;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-
 import java.util.List;
 @ApiModel("分页信息")
 public class PageBean<T> {

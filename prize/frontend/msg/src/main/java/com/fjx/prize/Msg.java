@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableCircuitBreaker
 @EnableTransactionManagement
 @EnableScheduling
-@MapperScan("com.itheima.prize.commons.db.mapper")
+@MapperScan("com.fjx.prize.commons.db.mapper")
 public class Msg {
 
     public static void main(String[] args) {

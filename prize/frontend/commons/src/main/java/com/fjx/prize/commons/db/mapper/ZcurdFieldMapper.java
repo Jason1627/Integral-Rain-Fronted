@@ -99,7 +99,7 @@ public interface ZcurdFieldMapper {
         "from zcurd_field",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.ZcurdFieldMapper.BaseResultMap")
+    @ResultMap("com.fjx.prize.commons.db.mapper.ZcurdFieldMapper.BaseResultMap")
     ZcurdField selectByPrimaryKey(Integer id);
 
     /**

@@ -85,7 +85,7 @@ public interface SysLoginLogMapper {
         "from sys_login_log",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.SysLoginLogMapper.BaseResultMap")
+    @ResultMap("com.fjx.prize.commons.db.mapper.SysLoginLogMapper.BaseResultMap")
     SysLoginLog selectByPrimaryKey(Integer id);
 
     /**

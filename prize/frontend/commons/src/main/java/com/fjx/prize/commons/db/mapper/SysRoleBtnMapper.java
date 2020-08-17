@@ -83,7 +83,7 @@ public interface SysRoleBtnMapper {
         "from sys_role_btn",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.SysRoleBtnMapper.BaseResultMap")
+    @ResultMap("com.fjx.prize.commons.db.mapper.SysRoleBtnMapper.BaseResultMap")
     SysRoleBtn selectByPrimaryKey(Integer id);
 
     /**

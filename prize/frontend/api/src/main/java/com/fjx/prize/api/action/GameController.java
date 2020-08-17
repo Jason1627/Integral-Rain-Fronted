@@ -1,12 +1,12 @@
 package com.fjx.prize.api.action;
 
 import com.github.pagehelper.PageHelper;
-import com.itheima.prize.commons.db.entity.*;
-import com.itheima.prize.commons.db.mapper.CardGameMapper;
-import com.itheima.prize.commons.db.mapper.GameLoadMapper;
-import com.itheima.prize.commons.db.mapper.ViewCardUserHitMapper;
-import com.itheima.prize.commons.utils.ApiResult;
-import com.itheima.prize.commons.utils.PageBean;
+import com.fjx.prize.commons.db.entity.*;
+import com.fjx.prize.commons.db.mapper.CardGameMapper;
+import com.fjx.prize.commons.db.mapper.GameLoadMapper;
+import com.fjx.prize.commons.db.mapper.ViewCardUserHitMapper;
+import com.fjx.prize.commons.utils.ApiResult;
+import com.fjx.prize.commons.utils.PageBean;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;

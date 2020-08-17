@@ -1,6 +1,4 @@
 package com.fjx.prize.api.action;
-
-
 import com.fjx.prize.commons.config.RabbitKeys;
 import com.fjx.prize.commons.config.RedisKeys;
 import com.fjx.prize.commons.db.entity.*;

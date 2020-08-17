@@ -95,7 +95,7 @@ public interface ZcurdHeadBtnMapper {
         "from zcurd_head_btn",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.ZcurdHeadBtnMapper.ResultMapWithBLOBs")
+    @ResultMap("com.fjx.prize.commons.db.mapper.ZcurdHeadBtnMapper.ResultMapWithBLOBs")
     ZcurdHeadBtn selectByPrimaryKey(Integer id);
 
     /**

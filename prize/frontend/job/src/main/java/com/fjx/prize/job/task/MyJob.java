@@ -4,6 +4,7 @@ import com.dangdang.ddframe.job.api.ShardingContext;
 import com.dangdang.ddframe.job.api.simple.SimpleJob;
 import com.fjx.prize.job.annotation.ElasticSimpleJob;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 /**
@@ -13,7 +14,7 @@ import org.springframework.web.client.RestTemplate;
  * 关闭后，分片被重新调度到存活的机器
  * 证明elastic-job是分布式的，可分片的。
  */
-@ElasticSimpleJob(cron = "0 0/10 * * * ?",
+@ElasticSimpleJob(cron = "* 0/10 * * * ?",
         jobName = "firstJob",
         shardingTotalCount = 2,
         jobParameter = "测试参数",
@@ -47,6 +48,5 @@ public class MyJob implements SimpleJob {
                 //获取任务的id
                 shardingContext.getTaskId()
         ));
-
     }
 }

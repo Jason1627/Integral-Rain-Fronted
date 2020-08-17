@@ -11,7 +11,7 @@ import javax.sql.DataSource;
  * 描述
  *
  * @ProjectName: framework_v2_idea2
- * @Package: com.itheima.prize.job.config
+ * @Package: com.fjx.prize.job.config
  * @ClassName: DataSourceConfig
  * @Author: JackWang
  * @CreateDate: 2019/1/11 0011 9:40

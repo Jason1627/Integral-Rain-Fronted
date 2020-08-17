@@ -84,7 +84,7 @@ public interface SysOplogMapper {
         "from sys_oplog",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.SysOplogMapper.BaseResultMap")
+    @ResultMap("com.fjx.prize.commons.db.mapper.SysOplogMapper.BaseResultMap")
     SysOplog selectByPrimaryKey(Integer id);
 
     /**

@@ -2,7 +2,7 @@ package com.fjx.prize.job.task;
 
 import com.fjx.prize.commons.db.entity.*;
 import com.fjx.prize.commons.config.RedisKeys;
-import com.itheima.prize.commons.db.entity.*;
+import com.fjx.prize.commons.db.entity.*;
 import com.fjx.prize.commons.db.mapper.CardGameMapper;
 import com.fjx.prize.commons.db.mapper.CardGameProductMapper;
 import com.fjx.prize.commons.db.mapper.CardGameRulesMapper;

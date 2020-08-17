@@ -1,15 +1,15 @@
 package com.fjx.prize.api.action;
 
-import com.itheima.prize.commons.config.RedisKeys;
-import com.itheima.prize.commons.db.entity.CardUser;
-import com.itheima.prize.commons.db.entity.CardUserDto;
-import com.itheima.prize.commons.db.entity.ViewCardUserHit;
-import com.itheima.prize.commons.db.entity.ViewCardUserHitExample;
-import com.itheima.prize.commons.db.mapper.CardUserGamesMapper;
-import com.itheima.prize.commons.db.mapper.ViewCardUserHitMapper;
-import com.itheima.prize.commons.utils.ApiResult;
-import com.itheima.prize.commons.utils.PageBean;
-import com.itheima.prize.commons.utils.RedisUtil;
+import com.fjx.prize.commons.config.RedisKeys;
+import com.fjx.prize.commons.db.entity.CardUser;
+import com.fjx.prize.commons.db.entity.CardUserDto;
+import com.fjx.prize.commons.db.entity.ViewCardUserHit;
+import com.fjx.prize.commons.db.entity.ViewCardUserHitExample;
+import com.fjx.prize.commons.db.mapper.CardUserGamesMapper;
+import com.fjx.prize.commons.db.mapper.ViewCardUserHitMapper;
+import com.fjx.prize.commons.utils.ApiResult;
+import com.fjx.prize.commons.utils.PageBean;
+import com.fjx.prize.commons.utils.RedisUtil;
 import com.github.pagehelper.PageHelper;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;

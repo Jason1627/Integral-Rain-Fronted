@@ -83,7 +83,7 @@ public interface CardUserHitMapper {
         "from card_user_hit",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.CardUserHitMapper.BaseResultMap")
+    @ResultMap("com.fjx.prize.commons.db.mapper.CardUserHitMapper.BaseResultMap")
     CardUserHit selectByPrimaryKey(Integer id);
 
     /**

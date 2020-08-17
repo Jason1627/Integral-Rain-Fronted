@@ -90,7 +90,7 @@ public interface ZcurdHeadMapper {
         "from zcurd_head",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.ZcurdHeadMapper.BaseResultMap")
+    @ResultMap("com.fjx.prize.commons.db.mapper.ZcurdHeadMapper.BaseResultMap")
     ZcurdHead selectByPrimaryKey(Integer id);
 
     /**

@@ -99,7 +99,7 @@ public interface TaskBaseMapper {
         "from task_base",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.TaskBaseMapper.ResultMapWithBLOBs")
+    @ResultMap("com.fjx.prize.commons.db.mapper.TaskBaseMapper.ResultMapWithBLOBs")
     TaskBase selectByPrimaryKey(Integer id);
 
     /**

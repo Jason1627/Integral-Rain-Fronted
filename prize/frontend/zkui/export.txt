@@ -4,7 +4,7 @@
 /prize/api,p8083=server.port=8083
 /prize/api,p8083=username=i am api-p8083
 /prize/api=errorMsg=exception!
-/prize/api=logging.level.com.itheima=debug
+/prize/api=logging.level.com.fjx=debug
 /prize/api=logging.level.io.lettuce.core=info
 /prize/api=logging.level.root=info
 /prize/api=server.port=8088

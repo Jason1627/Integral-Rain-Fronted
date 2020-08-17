@@ -84,7 +84,7 @@ public interface ImagesMapper {
         "from images",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.ImagesMapper.BaseResultMap")
+    @ResultMap("com.fjx.prize.commons.db.mapper.ImagesMapper.BaseResultMap")
     Images selectByPrimaryKey(Integer id);
 
     /**

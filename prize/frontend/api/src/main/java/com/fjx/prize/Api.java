@@ -16,7 +16,7 @@ import java.util.Properties;
 @EnableDiscoveryClient
 @EnableCircuitBreaker
 @EnableTransactionManagement
-@MapperScan("com.itheima.prize.commons.db.mapper")
+@MapperScan("com.fjx.prize.commons.db.mapper")
 @EnableCaching
 public class Api {
 

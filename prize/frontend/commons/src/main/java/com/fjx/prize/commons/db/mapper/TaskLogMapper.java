@@ -86,7 +86,7 @@ public interface TaskLogMapper {
         "from task_log",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.TaskLogMapper.BaseResultMap")
+    @ResultMap("com.fjx.prize.commons.db.mapper.TaskLogMapper.BaseResultMap")
     TaskLog selectByPrimaryKey(Integer id);
 
     /**

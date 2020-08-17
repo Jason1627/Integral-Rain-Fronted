@@ -82,7 +82,7 @@ public interface SysRoleMapper {
         "from sys_role",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.SysRoleMapper.BaseResultMap")
+    @ResultMap("com.fjx.prize.commons.db.mapper.SysRoleMapper.BaseResultMap")
     SysRole selectByPrimaryKey(Integer id);
 
     /**

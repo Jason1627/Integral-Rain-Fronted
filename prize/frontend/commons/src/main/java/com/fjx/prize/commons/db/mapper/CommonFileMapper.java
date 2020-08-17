@@ -83,7 +83,7 @@ public interface CommonFileMapper {
         "from common_file",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.CommonFileMapper.BaseResultMap")
+    @ResultMap("com.fjx.prize.commons.db.mapper.CommonFileMapper.BaseResultMap")
     CommonFile selectByPrimaryKey(Integer id);
 
     /**

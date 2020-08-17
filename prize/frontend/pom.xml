@@ -18,6 +18,7 @@
         <module>job</module>
         <module>msg</module>
         <module>commons</module>
+        <module>mybatis-generator</module>
     </modules>
 
     <properties>
@@ -128,6 +129,11 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-zookeeper-config</artifactId>
+        </dependency>
+        <!-- redis -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
 
 

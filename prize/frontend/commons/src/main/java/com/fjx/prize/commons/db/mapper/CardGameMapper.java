@@ -88,7 +88,7 @@ public interface CardGameMapper {
         "from card_game",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.CardGameMapper.BaseResultMap")
+    @ResultMap("com.fjx.prize.commons.db.mapper.CardGameMapper.BaseResultMap")
     CardGame selectByPrimaryKey(Integer id);
 
     /**

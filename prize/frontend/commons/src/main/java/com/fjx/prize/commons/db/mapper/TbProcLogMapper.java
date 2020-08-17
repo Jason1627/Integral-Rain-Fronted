@@ -89,7 +89,7 @@ public interface TbProcLogMapper {
         "from tb_proc_log",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.TbProcLogMapper.BaseResultMap")
+    @ResultMap("com.fjx.prize.commons.db.mapper.TbProcLogMapper.BaseResultMap")
     TbProcLog selectByPrimaryKey(Integer id);
 
     /**

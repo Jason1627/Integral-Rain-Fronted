@@ -84,7 +84,7 @@ public interface SysDictMapper {
         "from sys_dict",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.SysDictMapper.BaseResultMap")
+    @ResultMap("com.fjx.prize.commons.db.mapper.SysDictMapper.BaseResultMap")
     SysDict selectByPrimaryKey(Integer id);
 
     /**

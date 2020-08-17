@@ -83,7 +83,7 @@ public interface SysRoleMenuMapper {
         "from sys_role_menu",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.SysRoleMenuMapper.BaseResultMap")
+    @ResultMap("com.fjx.prize.commons.db.mapper.SysRoleMenuMapper.BaseResultMap")
     SysRoleMenu selectByPrimaryKey(Integer id);
 
     /**

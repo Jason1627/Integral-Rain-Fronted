@@ -83,7 +83,7 @@ public interface SysMenuDataruleMapper {
         "from sys_menu_datarule",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.SysMenuDataruleMapper.BaseResultMap")
+    @ResultMap("com.fjx.prize.commons.db.mapper.SysMenuDataruleMapper.BaseResultMap")
     SysMenuDatarule selectByPrimaryKey(Integer id);
 
     /**

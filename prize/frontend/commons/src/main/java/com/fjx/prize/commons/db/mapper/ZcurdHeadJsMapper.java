@@ -93,7 +93,7 @@ public interface ZcurdHeadJsMapper {
         "from zcurd_head_js",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.ZcurdHeadJsMapper.ResultMapWithBLOBs")
+    @ResultMap("com.fjx.prize.commons.db.mapper.ZcurdHeadJsMapper.ResultMapWithBLOBs")
     ZcurdHeadJs selectByPrimaryKey(Integer id);
 
     /**

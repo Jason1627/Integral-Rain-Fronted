@@ -84,7 +84,7 @@ public interface SysUserMapper {
         "from sys_user",
         "where id = #{id,jdbcType=INTEGER}"
     })
-    @ResultMap("com.itheima.prize.commons.db.mapper.SysUserMapper.BaseResultMap")
+    @ResultMap("com.fjx.prize.commons.db.mapper.SysUserMapper.BaseResultMap")
     SysUser selectByPrimaryKey(Integer id);
 
     /**

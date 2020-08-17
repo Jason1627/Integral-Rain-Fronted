@@ -1,12 +1,12 @@
 package com.fjx.prize.api.action;
 
-import com.itheima.prize.commons.config.RedisKeys;
-import com.itheima.prize.commons.db.entity.CardUser;
-import com.itheima.prize.commons.db.entity.CardUserExample;
-import com.itheima.prize.commons.db.mapper.CardUserMapper;
-import com.itheima.prize.commons.utils.ApiResult;
-import com.itheima.prize.commons.utils.PasswordUtil;
-import com.itheima.prize.commons.utils.RedisUtil;
+import com.fjx.prize.commons.config.RedisKeys;
+import com.fjx.prize.commons.db.entity.CardUser;
+import com.fjx.prize.commons.db.entity.CardUserExample;
+import com.fjx.prize.commons.db.mapper.CardUserMapper;
+import com.fjx.prize.commons.utils.ApiResult;
+import com.fjx.prize.commons.utils.PasswordUtil;
+import com.fjx.prize.commons.utils.RedisUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;

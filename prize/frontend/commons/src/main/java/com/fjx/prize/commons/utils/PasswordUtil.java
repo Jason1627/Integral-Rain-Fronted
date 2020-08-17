@@ -7,7 +7,6 @@ import java.security.MessageDigest;
  * 密码工具类
  */
 public class PasswordUtil {
-	
 
 	private String md5(String inputStr) {
 		BigInteger bigInteger = null;

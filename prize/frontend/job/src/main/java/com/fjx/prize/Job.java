@@ -11,9 +11,8 @@ import org.springframework.web.client.RestTemplate;
 
 
 @SpringBootApplication
-@EnableAutoConfiguration
 @EnableDiscoveryClient
-@MapperScan("com.itheima.prize.commons.db.mapper")
+@MapperScan("com.fjx.prize.commons.db.mapper")
 public class Job {
 
 	public static void main(String[] args) {
