@@ -21,7 +21,8 @@ public class PrizeGameReceiver {
 
     @RabbitHandler
     public void processMessage3(CardUserGame message) {
-        logger.info("user play : game={},user={},time={} " , message.getGameid(),message.getUserid(),message.getCreatetime());
+        logger.info("用户参与活动的信息 : 活动={},用户={},时间={}", message.getGameid(), message.getUserid(),
+                message.getCreatetime());
         cardUserGameMapper.insert(message);
     }
 

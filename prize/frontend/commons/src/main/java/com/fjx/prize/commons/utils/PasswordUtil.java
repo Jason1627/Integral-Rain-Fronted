@@ -2,12 +2,10 @@ package com.fjx.prize.commons.utils;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;
-
 /**
  * 密码工具类
  */
 public class PasswordUtil {
-
 	private String md5(String inputStr) {
 		BigInteger bigInteger = null;
 		try {
@@ -31,5 +29,4 @@ public class PasswordUtil {
 	public static void main(String[] args) {
 		System.out.println(encodePassword("123456"));
 	}
-
 }

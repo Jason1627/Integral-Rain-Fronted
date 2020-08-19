@@ -29,7 +29,7 @@ public class PrizeHitReceiver {
 
     @RabbitHandler
     public void processMessage3(Map message) {
-        logger.info("user hit : " + message);
+        logger.info("用户中奖信息 : " + message);
         CardUserHit hit = new CardUserHit();
         hit.setGameid(MapUtils.getIntValue(message,"gameid"));
         hit.setUserid(MapUtils.getIntValue(message,"userid"));
@@ -39,7 +39,8 @@ public class PrizeHitReceiver {
     }
     @RabbitHandler
     public void processMessage2(CardUserHit message) {
-        logger.info("user hit : game={},user={},product={},time={}" , message.getGameid(),message.getUserid(),message.getProductid(),message.getHittime());
+        logger.info("用户中奖信息 : 活动={},用户={},奖品={},中奖时间={}" , message.getGameid(),message.getUserid(),
+                message.getProductid(),message.getHittime());
         hitMapper.insert(message);
     }
 }

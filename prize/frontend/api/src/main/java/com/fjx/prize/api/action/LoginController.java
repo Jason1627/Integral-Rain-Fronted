@@ -50,6 +50,7 @@ public class LoginController {
             HttpSession session = request.getSession();
             session.setAttribute("loginUserId", user.getId());
             redisUtil.set("loginUser:" + user.getId(), session.getId());
+            // 将用户信息存放在session中
             redisUtil.set(RedisKeys.SESSIONID+session.getId(),user);
             return new ApiResult(1, "登录成功",user);
         } else {

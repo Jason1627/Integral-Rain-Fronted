@@ -19,14 +19,18 @@ public class LuaScript{
     private RedisTemplate redisTemplate;
  
     private DefaultRedisScript<Long> script;
- 
+
+    // 定义一个初始化的方法
     @PostConstruct
     public void init(){
         script = new DefaultRedisScript<Long>();
+        // 设置脚本类型为long类型
         script.setResultType(Long.class);
+        // 加载脚本的内容，路径
         script.setScriptSource(new ResourceScriptSource(new ClassPathResource("lua/tokenCheck.lua")));
     }
- 
+    // tokenCheck  方法去调用脚本
+    // gamekey :  RedisKeys.TOKENS + gameid
     public Long tokenCheck(String gamekey,String curtime){
 
         List<String> keys = new ArrayList();
