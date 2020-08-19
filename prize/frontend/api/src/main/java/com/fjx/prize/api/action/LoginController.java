@@ -35,18 +35,24 @@ public class LoginController {
             @ApiImplicitParam(name="password",value = "密码",required = true)
     })
     public ApiResult login(HttpServletRequest request, @RequestParam String account,@RequestParam String password) {
+        // 获取登陆错误的次数
         Integer errortimes = (Integer) redisUtil.get(RedisKeys.USERLOGINTIMES+account);
         if (errortimes != null && errortimes >= 5){
             return new ApiResult(0, "密码错误5次，请5分钟后再登录",null);
         }
+
         CardUserExample userExample = new CardUserExample();
         userExample.createCriteria().andUnameEqualTo(account).andPasswdEqualTo(PasswordUtil.encodePassword(password));
+         // 查询用户是否存在
         List<CardUser> users = userMapper.selectByExample(userExample);
+        // 用户存在
         if (users != null && users.size() > 0) {
             CardUser user = users.get(0);
-            //信息脱敏，不要将敏感信息带入session以免其他接口不小心泄露到前台
+            // 信息脱敏，不要将敏感信息带入session以免其他接口不小心泄露到前台
+            // 哪些字段比较敏感，就将该字段设置为null
             user.setPasswd(null);
             user.setIdcard(null);
+            // 分布式session 将用户的session 信息存放在redis 防止分布式部署服务时，访问不同的服务，无法获取session 信息·
             HttpSession session = request.getSession();
             session.setAttribute("loginUserId", user.getId());
             redisUtil.set("loginUser:" + user.getId(), session.getId());

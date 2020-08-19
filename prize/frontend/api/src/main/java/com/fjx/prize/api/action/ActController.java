@@ -153,16 +153,23 @@ public class ActController {
     })
     public ApiResult info(@PathVariable int gameid) {
         Map map = new LinkedHashMap<>();
+        // 存放活动基本信息
         map.put(RedisKeys.INFO + gameid, redisUtil.get(RedisKeys.INFO + gameid));
+        // 获取令牌桶中的全部令牌
         List<Object> tokens = redisUtil.lrange(RedisKeys.TOKENS + gameid, 0, -1);
+        // 将令牌桶中的全部令牌有序的存放在 map 中
         Map tokenMap = new LinkedHashMap();
         tokens.forEach(o -> tokenMap.put(
                 new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date(Long.valueOf(o.toString()) / 1000)),
+                // 获取奖品的具体信息
                 redisUtil.get(RedisKeys.TOKEN + gameid + "_" + o))
         );
+        // 存放活动的令牌信息
         map.put(RedisKeys.TOKENS + gameid, tokenMap);
+        // 存放活动的最大中奖数和可中奖数
         map.put(RedisKeys.MAXGOAL + gameid, redisUtil.hmget(RedisKeys.MAXGOAL + gameid));
         map.put(RedisKeys.MAXENTER + gameid, redisUtil.hmget(RedisKeys.MAXENTER + gameid));
+        // 返回缓存信息
         return new ApiResult(200, "缓存信息", map);
     }
 }
