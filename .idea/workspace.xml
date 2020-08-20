@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d73630a-b639-4449-a09e-0f8b05422af9" name="Default Changelist" comment="冯佳兴——各模块进行打包编译">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="1d73630a-b639-4449-a09e-0f8b05422af9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +171,7 @@
       <workItem from="1597622503554" duration="19307000" />
       <workItem from="1597734856851" duration="14289000" />
       <workItem from="1597802158090" duration="10954000" />
-      <workItem from="1597902266345" duration="2224000" />
+      <workItem from="1597902266345" duration="2544000" />
     </task>
     <task id="LOCAL-00001" summary="冯佳兴提交前台代码框架-2020年8月16日15:47:46">
       <created>1597564210660</created>
@@ -210,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597909266070</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="冯佳兴——删除多余的pom 文件">
+      <created>1597914060228</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597914060228</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +227,8 @@
     <MESSAGE value="冯佳兴-晚上抽奖逻辑，保证抽奖过程的原子性" />
     <MESSAGE value="冯佳兴-修改登陆逻辑 ——2020年8月19日16:09:55" />
     <MESSAGE value="冯佳兴——各模块进行打包编译" />
-    <option name="LAST_COMMIT_MESSAGE" value="冯佳兴——各模块进行打包编译" />
+    <MESSAGE value="冯佳兴——删除多余的pom 文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="冯佳兴——删除多余的pom 文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="186" key="#Notifications" timestamp="1597563961134">
