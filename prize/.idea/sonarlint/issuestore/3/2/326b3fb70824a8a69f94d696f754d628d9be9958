@@ -1,0 +1,35 @@
+
+f
+java:S1192Ó"JDefine a constant instead of duplicating this literal "formName" 12 times.(ö‚³âýÿÿÿÿ
+h
+java:S1192×"LDefine a constant instead of duplicating this literal "dialogSize" 12 times.(ž¹‹‰üÿÿÿÿ
+f
+java:S1192"JDefine a constant instead of duplicating this literal "dbSource" 12 times.(ìÑÓ–úÿÿÿÿ
+e
+java:S1192™"IDefine a constant instead of duplicating this literal "idField" 12 times.(‰õÍºùÿÿÿÿ
+h
+java:S1192ï"LDefine a constant instead of duplicating this literal "createTime" 10 times.(·í“°øÿÿÿÿ
+d
+java:S1192ß"HDefine a constant instead of duplicating this literal "isAuto" 10 times.(ÑÛ¹žùÿÿÿÿ
+g
+java:S1192"KDefine a constant instead of duplicating this literal "tableName" 12 times.(ëÌ¯Šüÿÿÿÿ
+a
+java:S1192›"JDefine a constant instead of duplicating this literal "formType" 10 times.(¤¦žÜ
+h
+java:S1192©"QDefine a constant instead of duplicating this literal "deleteFlagField" 12 times.(ÏûÍÃ
+i
+java:S1192ã"MDefine a constant instead of duplicating this literal "handleClass" 12 times.(ÚÝ·¶üÿÿÿÿ
+a	java:S112³"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ
+a	java:S112º"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºþÿÿÿÿ
+[	java:S112Á"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+
+S
+java:S1155z">Use isEmpty() to check whether the collection is empty or not.(Á½¼s
+Z
+java:S1155¦">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ
+w
+java:S1488‡"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì
+n
+java:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÏßÉe
+p
+java:S2293¢"YReplace the type specification in this constructor call with the diamond operator ("<>").(óÎ³Ù

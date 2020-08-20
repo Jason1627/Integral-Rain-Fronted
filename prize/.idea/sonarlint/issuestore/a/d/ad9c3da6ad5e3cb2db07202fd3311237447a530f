@@ -1,0 +1,29 @@
+
+g
+java:S1192Í"KDefine a constant instead of duplicating this literal "errorCode" 12 times.(‡ªÑ þÿÿÿÿ
+c
+java:S1192Ó"GDefine a constant instead of duplicating this literal "statu" 12 times.(é…‡Ãÿÿÿÿÿ
+a
+java:S1192‘"JDefine a constant instead of duplicating this literal "costTime" 10 times.(ì¶·Ô
+a
+java:S1192“"JDefine a constant instead of duplicating this literal "errorMsg" 12 times.(«Æ‹Ž
+a
+java:S1192"JDefine a constant instead of duplicating this literal "procName" 12 times.(éø±‰
+e
+java:S1192Õ"IDefine a constant instead of duplicating this literal "endTime" 10 times.(¸Œüüþÿÿÿÿ
+g
+java:S1192™"KDefine a constant instead of duplicating this literal "startTime" 10 times.(±ö€™úÿÿÿÿ
+a	java:S112³"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ
+a	java:S112º"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºþÿÿÿÿ
+[	java:S112Á"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+
+S
+java:S1155z">Use isEmpty() to check whether the collection is empty or not.(Á½¼s
+Z
+java:S1155¦">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ
+w
+java:S1488‡"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì
+n
+java:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÏßÉe
+p
+java:S2293¢"YReplace the type specification in this constructor call with the diamond operator ("<>").(óÎ³Ù

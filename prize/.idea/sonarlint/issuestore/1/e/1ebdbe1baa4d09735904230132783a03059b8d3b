@@ -1,0 +1,31 @@
+
+^
+java:S1192"GDefine a constant instead of duplicating this literal "uname" 12 times.(¸äû°
+^
+java:S1192™"HDefine a constant instead of duplicating this literal "passwd" 12 times.(Î˜®@
+h
+java:S1192í"LDefine a constant instead of duplicating this literal "createtime" 10 times.(­éÏžùÿÿÿÿ
+^
+java:S1192±"GDefine a constant instead of duplicating this literal "level" 10 times.(îîöÜ
+c
+java:S1192ë"GDefine a constant instead of duplicating this literal "phone" 12 times.(ºÔñŠÿÿÿÿÿ
+a
+java:S1192ß"JDefine a constant instead of duplicating this literal "realname" 12 times.(Šíý›
+h
+java:S1192©"LDefine a constant instead of duplicating this literal "updatetime" 10 times.(¸¹‡ðûÿÿÿÿ
+_
+java:S1192¥"HDefine a constant instead of duplicating this literal "idcard" 12 times.(´‚Ü¬
+a	java:S112³"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ
+a	java:S112º"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºþÿÿÿÿ
+[	java:S112Á"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+
+S
+java:S1155z">Use isEmpty() to check whether the collection is empty or not.(Á½¼s
+Z
+java:S1155¦">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ
+w
+java:S1488‡"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì
+n
+java:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÏßÉe
+p
+java:S2293¢"YReplace the type specification in this constructor call with the diamond operator ("<>").(óÎ³Ù

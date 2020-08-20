@@ -1,0 +1,30 @@
+
+N
+java:S1128"1Remove this unused import 'java.util.Properties'.(¬µ²8©ºÚŞ¿.
+H
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8©ºÚŞ¿.
+g
+java:S1128"JRemove this unused import 'org.mybatis.generator.config.PropertyRegistry'.(§ƒ–8©ºÚŞ¿.
+T
+java:S1128"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8©ºÚŞ¿.
+i
+java:S1128"GRemove this unused import 'org.mybatis.generator.api.CommentGenerator'.(Ë¡““ûÿÿÿÿ8©ºÚŞ¿.
+8
+java:S3626"Remove this redundant jump.(ûÁİ…8©ºÚŞ¿.
+W
+java:S1161":Add the "@Override" annotation above this method signature(ë€°ª8©ºÚŞ¿.
+8
+java:S3626&"Remove this redundant jump.(ûÁİ…8©ºÚŞ¿.
+W
+java:S1161%":Add the "@Override" annotation above this method signature(£„°8©ºÚŞ¿.
+8
+java:S3626+"Remove this redundant jump.(ûÁİ…8©ºÚŞ¿.
+W
+java:S1161)":Add the "@Override" annotation above this method signature(Şçêµ8©ºÚŞ¿.
+\
+java:S11617":Add the "@Override" annotation above this method signature(íÀŒ×ûÿÿÿÿ8©ºÚŞ¿.
+V
+java:S1161I":Add the "@Override" annotation above this method signature(Åò°V8©ºÚŞ¿.
+W
+java:S1161X":Add the "@Override" annotation above this method signature(ßÄŠÚ8©ºÚŞ¿.
+]	java:S125S"<This block of commented-out lines of code should be removed.(æéÅ‡ùÿÿÿÿ8©ºÚŞ¿.

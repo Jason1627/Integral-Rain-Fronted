@@ -1,0 +1,7 @@
+com\fjx\prize\job\config\DataSourceConfig.class
+com\fjx\prize\job\listner\ElasticJobListener.class
+com\fjx\prize\Job.class
+com\fjx\prize\job\annotation\ElasticSimpleJob.class
+com\fjx\prize\job\config\ElasticJobAutoConfiguration.class
+com\fjx\prize\job\task\GameTask.class
+com\fjx\prize\job\task\MyJob.class

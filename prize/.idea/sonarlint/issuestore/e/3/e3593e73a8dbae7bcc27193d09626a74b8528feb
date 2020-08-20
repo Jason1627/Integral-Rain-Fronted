@@ -1,0 +1,20 @@
+
+L
+java:S3740"/Provide the parametrized type for this generic.(Èî¯ı8İ¹ÚŞ¿.
+d
+java:S1192"GDefine a constant instead of duplicating this literal "byte[]" 5 times.(ô¡˜’8İ¹ÚŞ¿.
+X
+java:S1905J"6Remove this unnecessary cast to "JdbcTypeInformation".(õŞ¨ôüÿÿÿÿ8İ¹ÚŞ¿.
+>	java:S131U""Add a default case to this switch.(Ã†ƒ8İ¹ÚŞ¿.
+J
+java:S1172j"-Remove this unused method parameter "column".(«—€á8İ¹ÚŞ¿.
+J
+java:S1172u"-Remove this unused method parameter "column".(¬®Ö‘8İ¹ÚŞ¿.
+P
+java:S1172€"-Remove this unused method parameter "column".(¿Ø˜çüÿÿÿÿ8İ¹ÚŞ¿.
+Y
+java:S1905©"6Remove this unnecessary cast to "JdbcTypeInformation".(õŞ¨ôüÿÿÿÿ8İ¹ÚŞ¿.
+X
+java:S1068"6Remove this unused "TIME_WITH_TIMEZONE" private field.(õõÒÊüÿÿÿÿ8İ¹ÚŞ¿.
+X
+java:S1068";Remove this unused "TIMESTAMP_WITH_TIMEZONE" private field.(‰‘È¸8İ¹ÚŞ¿.

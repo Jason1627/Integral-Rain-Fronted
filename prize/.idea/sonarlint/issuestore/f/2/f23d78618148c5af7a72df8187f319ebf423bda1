@@ -1,0 +1,13 @@
+
+y
+java:S1488("^Immediately return this expression instead of assigning it to the temporary variable "result".(„¦®úÿÿÿÿ
+J
+java:S3740$"/Provide the parametrized type for this generic.(ô•ıˆùÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‰åşôüÿÿÿÿ
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(‚Ê«
+I
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ

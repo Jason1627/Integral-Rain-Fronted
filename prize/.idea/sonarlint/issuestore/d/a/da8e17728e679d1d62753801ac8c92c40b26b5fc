@@ -1,0 +1,52 @@
+
+c
+java:S1192Ã	"GDefine a constant instead of duplicating this literal "isSum" 10 times.(ÂÃï‘úÿÿÿÿ
+e
+java:S1192ÿ	"NDefine a constant instead of duplicating this literal "defaultValue" 12 times.(ÈÇ¥“
+g
+java:S1192×"KDefine a constant instead of duplicating this literal "inputType" 12 times.(¾…ìáûÿÿÿÿ
+g
+java:S1192É"KDefine a constant instead of duplicating this literal "fieldName" 12 times.(øˆ’Êýÿÿÿÿ
+i
+java:S1192É"MDefine a constant instead of duplicating this literal "isAllowNull" 10 times.(Ý¬“Ðûÿÿÿÿ
+h
+java:S1192Å
+"LDefine a constant instead of duplicating this literal "createTime" 10 times.(·í“°øÿÿÿÿ
+h
+java:S1192•"LDefine a constant instead of duplicating this literal "isAllowAdd" 10 times.(ýž«œúÿÿÿÿ
+c
+java:S1192"LDefine a constant instead of duplicating this literal "columnName" 12 times.(Ò²œ
+c
+java:S1192‡	"LDefine a constant instead of duplicating this literal "searchType" 10 times.(ÐÃˆ
+d
+java:S1192"HDefine a constant instead of duplicating this literal "headId" 10 times.( ƒ†èùÿÿÿÿ
+h
+java:S1192"LDefine a constant instead of duplicating this literal "isShowList" 10 times.(®¦Õ¶øÿÿÿÿ
+f
+java:S1192"JDefine a constant instead of duplicating this literal "isSearch" 10 times.(šƒ®Þùÿÿÿÿ
+a
+java:S1192Ë"JDefine a constant instead of duplicating this literal "orderNum" 10 times.(êâÊ“
+f
+java:S1192Ù"ODefine a constant instead of duplicating this literal "isAllowDetail" 10 times.(˜êá¦
+f
+java:S1192‘"JDefine a constant instead of duplicating this literal "dataType" 12 times.(¬¶Ø¶úÿÿÿÿ
+j
+java:S1192Õ"NDefine a constant instead of duplicating this literal "columnLength" 10 times.(òùÉ“ÿÿÿÿÿ
+`
+java:S1192…"IDefine a constant instead of duplicating this literal "dictSql" 12 times.(à·Öã
+f
+java:S1192Ñ"ODefine a constant instead of duplicating this literal "isAllowUpdate" 10 times.(½ø´Í
+a	java:S112³"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ
+a	java:S112º"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºþÿÿÿÿ
+[	java:S112Á"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+
+S
+java:S1155z">Use isEmpty() to check whether the collection is empty or not.(Á½¼s
+Z
+java:S1155¦">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ
+w
+java:S1488‡"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì
+n
+java:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÏßÉe
+p
+java:S2293¢"YReplace the type specification in this constructor call with the diamond operator ("<>").(óÎ³Ù

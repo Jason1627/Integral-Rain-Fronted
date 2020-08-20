@@ -1,0 +1,34 @@
+
+j
+java:S1128"ORemove this unused import 'org.springframework.cache.interceptor.KeyGenerator'.(ÙÏ’øÿÿÿÿ
+J
+java:S1128"/Remove this unused import 'java.time.Duration'.(ëá¯‰üÿÿÿÿ
+P
+java:S1128"5Remove this unused import 'java.lang.reflect.Method'.(Í“¯äüÿÿÿÿ
+o
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿ‘´¶
+i
+java:S1128"SRemove this unused import 'org.springframework.data.redis.cache.RedisCacheManager'.(îª¼î
+E
+java:S3740)"/Provide the parametrized type for this generic.(¿®Ã´
+e
+java:S1128
+"ORemove this unused import 'org.springframework.cache.annotation.EnableCaching'.(ÍŠ³Ï
+J
+java:S3740$"/Provide the parametrized type for this generic.(”¤ÇÛùÿÿÿÿ
+v
+java:S1128"`Remove this unused import 'org.springframework.data.redis.serializer.RedisSerializationContext'.(¨ˆì
+j
+java:S1128"TRemove this unused import 'org.springframework.data.redis.core.StringRedisTemplate'.(Á•½
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
+I
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+E
+java:S3740)"/Provide the parametrized type for this generic.(¿®Ã´
+Y
+java:S1128"CRemove this unused import 'org.springframework.cache.CacheManager'.(÷ë¿Û
+t
+java:S1128"YRemove this unused import 'org.springframework.data.redis.cache.RedisCacheConfiguration'.(ÏÀÉ®ûÿÿÿÿ
+h
+java:S1128"RRemove this unused import 'org.springframework.data.redis.cache.RedisCacheWriter'.(¶’›¬
