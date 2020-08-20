@@ -95,6 +95,4 @@ public class GameController {
         List<ViewCardUserHit> all = hitMapper.selectByExample(example);
         return new ApiResult(1, "成功",new PageBean<ViewCardUserHit>(curpage,limit,total,all));
     }
-
-
 }
