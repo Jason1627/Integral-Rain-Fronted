@@ -21,4 +21,5 @@ public class WebSecurityConfig extends WebMvcConfigurerAdapter {
                 .addPathPatterns("/api/user/**");
         super.addInterceptors(registry);
     }
+
 }
