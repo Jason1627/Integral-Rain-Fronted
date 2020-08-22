@@ -30,7 +30,7 @@
         <profile>
             <id>dev</id>
             <properties>
-                <config.zk>192.168.183.137:2181</config.zk>
+                <config.zk>192.168.183.136:2181</config.zk>
                 <config.root>prize</config.root>
             </properties>
             <activation>
@@ -41,7 +41,7 @@
         <profile>
             <id>prod</id>
             <properties>
-                <config.zk>192.168.183.137:2181</config.zk>
+                <config.zk>192.168.183.136:2181</config.zk>
                 <config.root>prize</config.root>
             </properties>
         </profile>
